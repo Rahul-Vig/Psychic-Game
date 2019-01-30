@@ -1,0 +1,35 @@
+body {
+  background-color: yellowgreen;
+}
+
+#logo-container {
+  height: 200px;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 1%;
+  align-items: center;
+  justify-content: center;
+}
+
+#author {
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: "Shadows Into Light", cursive;
+  margin-left: 1%;
+}
+
+.game-content {
+  width: 100%;
+}
+
+#game-header {
+  font-size: 50px;
+  font-weight: bolder;
+  margin: 1%;
+}
+
+p {
+  margin: 1%;
+}
