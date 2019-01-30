@@ -49,6 +49,8 @@ function gameRound(event) {
       randomLetter = letters[Math.floor(Math.random() * letters.length)]; //generate another random letter
       guesses = []; //reinitialize the guesses array to empty.
       //Now the game can be played again.
+      document.getElementById("keysEntered").textContent =
+        "Your Guesses so far: " + guesses.toString(); //update html to reflect a clean slate for guesses so far.
     } else {
       guesses.push(event.key); //if the key pressed does not equal the randomly generated letter, push that key into the guess array
       guessesLeft--; //decrement the number of guesses
